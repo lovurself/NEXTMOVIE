@@ -1,0 +1,16 @@
+.nav,
+.listItem,
+.srcMypage {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  width: calc(100% - 370px);
+  justify-content: space-between;
+
+  .listItem,
+  .srcMypage {
+    gap: 30px;
+  }
+}
